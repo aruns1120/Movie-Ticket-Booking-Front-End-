@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        body {
+        background-image: url("mov3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      color: #c92803;
+      margin-top: 300px;
+            }
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #777;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+.logo{
+  background-position: left;
+}
+    </style>
+    </head>
+    <body background="mov3.jpg">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="about cini.html">About</a></li>
+        <li><a href="">Review</a></li>
+        <li style="float:right"><a class="active" href="goto.html">Login</a></li>
+      </ul>
+      
+      <img src="ac2.png" width="100" height="100">
+      <h1 class="center" style="font: size 65px;">ARUN PREMIUM CINEMAS</h1>
+
+      <form >
+       <center> <input type="submit"  formaction="goto.html" value="Book Ticket" required></center>
+      </form>
+    </body>
+</html>
